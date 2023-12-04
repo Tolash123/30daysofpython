@@ -13,7 +13,7 @@ print('The sum of the number = ', a+b+c)
 a,b,c = [int(x)for x in input('Enter numbers to be multiplied: ').split(',')]
 print('The product of the number = ', a*b*c)
 
-# using eval functiion
+# using eval() functiion
 a = eval(input('Enter a word: '))
 print(a)
 print(type(a))
