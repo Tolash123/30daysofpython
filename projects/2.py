@@ -23,4 +23,3 @@ root3 = (-b+m.sqrt(d))/2*a
 root4 = (-b-m.sqrt(d))/2*a
 print(root3)
 print(root4)
-
