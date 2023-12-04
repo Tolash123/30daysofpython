@@ -38,3 +38,18 @@ Examples
 > a = 'Balaji'
  b = 'Hello'
  print("{} {}!,how are you?".format(a,b))
+
+### Replacement Operator based on Index
+
+Example:
+> Age  =  21
+ Goal = 'Data Scientist'
+ Name = 'Balaji'
+ print("Hello {2}, your age is {1}, your goal is to become a {0}".format(Goal,Age,Name))
+
+### print( ) with formatted string
+
+'%i' (Signed Decimal Value)
+'%d' (Signed Decimal Value)
+'%f' (Signed float Value)
+'%s' (String, list, set type)
