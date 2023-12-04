@@ -1,4 +1,4 @@
-# program for collecting bio data
+# Q) Program to read employee data from user and print the data.
 print('Welcome to the bio data collector!')
 name = input('Enter your name: ')
 age = int(input('Enter your age: '))
@@ -10,10 +10,10 @@ postal_code = int(input('Enter your postal_code: '))
 
 print('/n')
 print('The given data are as follows: ')
-print(name)
-print(age)
-print(course)
-print(address)
-print(married)
-print(nationality)
-print(postal_code)
+print('Name: ',name)
+print('Age',age)
+print('Course',course)
+print('Address',address)
+print('Married',married)
+print('Nationality',nationality)
+print('Postal_code',postal_code)
