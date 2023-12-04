@@ -1,6 +1,24 @@
-import math as m
+# Addition of numbers
+print(int(2+3))
 
-a = m.sqrt(16)
+a,b = 5,6
+print(a>b)
 
-a,b,c = [int(x) for x in input('Enter three numbers e.g(3,4,7): ').split(',')]
-print('The sum of abc is : ', a+b+c)
+# checking for the ASCII code
+lowercase = ['a', 'b', 'c', 'd']
+empty_list = []
+for i in lowercase:
+    empty_list += [ord(i)]
+    print(empty_list)
+
+# using chr to check for the character
+
+number = [65,66,67,68]
+e_list = []
+for i in number:
+    e_list += [chr(i)]
+    print(e_list)
+
+# boolean
+print(True and True)
+print (True and False)
