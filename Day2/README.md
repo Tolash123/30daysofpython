@@ -40,3 +40,24 @@ They are used to check values are equal or not. It returns bool values
 
 - '==' (Equal to)
 - '!=' (Not Equal to)
+
+### Logical Operators
+- and
+- or
+- not
+
+#### For Boolean values
+'and' operator
+For an 'and' operator two values must be True to return True. If any one is False it returns False.
+
+### Bitwise Operators
+
+'&' (and)
+'|' (or)
+'^' (X-or)
+'~' (Complementary Operator)
+
+### Shift Operators
+
+'<<' (Left Shift)
+'>>' (Right Shift)
