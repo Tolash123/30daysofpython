@@ -14,3 +14,4 @@ index()
 - Examples
 Tuples are immutable.
 We cannot add or remove elements in a tuple
+Since tuple is immutable, to add elements we convert to list
