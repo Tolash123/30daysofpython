@@ -37,3 +37,6 @@ pop(2)-----------> removes key which has key as 2
 del dict[3]------> removes key which has key as 3
 clear()----------> Clears the dictionary completely
 popitem()--------> Removes last inserted key-value pair
+
+###### fromkeys()
+We use fromkeys( ) when we have same values for different keys.
