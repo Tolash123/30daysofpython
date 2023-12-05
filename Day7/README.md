@@ -16,3 +16,14 @@ Example
 ## while loop
 
 - It executes group of statements based on the conditions.
+Example:
+>i = 1
+ while i<=3:
+    print("Hello")
+    i += 1
+
+### Nested Loops
+Example
+> for i in range(3):
+    for j in range(2):
+        print("Hello Balaji")
