@@ -1,25 +1,19 @@
-import cmath as m
-#quadratic formula
-a = 1
-b = 2
-c = 5
-d = (b**2) - (4*a*c)
+# Program to print output as 'abbcccddddeeeee' for input: Input: 'a1b2c3d4e5'
+a = input('Enter a string: ')
+output = ''
+for x in a:
+    if x.isalpha():
+        output=output+x
+        previous=x
+    else:
+        output=output+previous*(int(x)-1)
+print(output)
 
-root1 = (-b+m.sqrt(d))/2*a
-root2 = (-b-m.sqrt(d))/2*a
-print(root1)
-print(root2)
-
-print('Welcome! We can help you solve your quadratic equation. \n')
-
-a = int(input('Enter the value for a: '))
-b = int(input('Enter the value for b: '))
-c = int(input('Enter the value for c: '))
-
-def quadratic_formula(a,b,c):
-    d = (b**2) - (4*a*c)
-
-root3 = (-b+m.sqrt(d))/2*a
-root4 = (-b-m.sqrt(d))/2*a
-print(root3)
-print(root4)
+# Program to remove Duplicate Characters from the given String?
+s = input('Enter a string: ')
+l = []
+for x in s:
+    if x not in l:
+        l.append(x)
+        output=''.join(l)
+print(output)
