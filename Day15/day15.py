@@ -101,3 +101,30 @@ for x in s:
         l.append(x)
         output=''.join(l)
 print(output)
+
+# Program to find the number of Occurrences of each Character the String
+
+ = input('Enter a string: ')
+d = {}
+for x in s:
+    if x in d.keys():
+        d[x]=d[x]+1
+    else:
+        d[x]=1
+for a,b in d.items():
+    print('{} = {} times'.format(a,b))
+
+# Program to print: Output: 'one owt three ruof five xis seven' if
+s = input('Enter a string: ')
+l = s.split()
+l1 = []
+i = 0
+while i<len(l):
+    if i % 2==0:
+        l1.append(l[i])
+    else:
+        l1.append(l[1][::-1])
+    i=i+1
+output = ' '.join(l1)
+print('Original string: ', s)
+print('Output string: ', output)
