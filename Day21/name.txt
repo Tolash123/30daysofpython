@@ -1,0 +1,6 @@
+name = [
+    ('Tolani',001),('Abdul',200),('Kabir',003)
+]
+ This is being appended to name.txt
+ This is being appended to name.txt
+ This is being appended to name.txt
