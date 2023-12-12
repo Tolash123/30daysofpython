@@ -23,3 +23,14 @@ def askint():
         finally:
             print('Finally, I executed')  
 askint()
+
+def check1():
+    name = ['Alade','Abdul','Tolani','jamiu']
+    try:
+        if 'Alade' in name:
+            print('that is corect')
+    except:
+        print('That is not existing ')
+    finally:
+        print('I executed')
+check1()

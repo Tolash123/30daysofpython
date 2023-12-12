@@ -1,9 +1,14 @@
-def askint():
-    try:
-        val = int(input('Enter an integer:'))
-    except:
-        print('looks like you did not enter an integer.')
-    finally:
-        print('Finally, I executed')
-    print(val)
-askint()
+# program that loops
+animal = input('What animal do you want?:')
+while True:
+    if animal == 'Cow':
+        print('A cow goes moo.')
+        continue
+    elif animal == 'Lemur':
+        print('Ummm...the Lesser Spotter Lemur goes awooga.')
+    elif animal == 'A Lesser Spotted lemur':
+        print('Ummm...the Lesser Spotter Lemur goes awooga.')
+    else:
+        print('I dont know that animal.')
+    exit()
+
