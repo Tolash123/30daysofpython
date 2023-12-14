@@ -42,8 +42,3 @@ class Book(Library):
 book = Book('The history of Jungle', 35, 11100)
 print('Title:',book.name,'Shelf_no:',book.no_shelf,'Available books:',book.books)
 
-import math as m # importing the math library
-def area(*args):
-    return 2*m.pi*args*args
-print(area(7))
-    
