@@ -1,6 +1,7 @@
 # To open a file using python code
 file = open('/home/idreesy31/30daysofpython/Day21/name.txt', 'r') 
 # Note: always put the file path
+# change the file path
 
 #To read a file
 a = file.read()
