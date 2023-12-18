@@ -1,5 +1,6 @@
-# Q) Program to read employee data from user and print the data.
-print('Welcome to the bio data collector!')
+# Q) Program for collecting student data
+
+print('Welcome to Dristol College! \n')
 name = input('Enter your name: ')
 age = int(input('Enter your age: '))
 course = input('Enter your course: ')
