@@ -1,24 +1,26 @@
-# Number guessing
-import random
+import os, time
 
-attempt = 1
-print('Totally Random One-Million-to-One')
-number = random.randint(1,1000000)
-while True:
-  guess = int(input('What is your guess:'))
-  if guess == number:
-    print('You are a genius')
-    break
-  elif guess > number:
-    print('Too high')
-    attempt = attempt + 1
-  elif guess < number:
-    print('Too low')
-    attempt = attempt + 1
-    continue
+def play():
+  print('🎵 MyPOD Music Player')
+  print('1. Play')
+  print('2. Exit')
+  print('3. Menu')
+  play= input('Do you want to play or exit?: ')
+  if play == 'play':
+      print('Playing soon...')
+  elif play=='exit':
+     print('Ending the music player')
   else:
-    print('Finally')
-    exit()
+     pass
+print('Do you want to go back to the menu?: ')
+menu = input('yes or no?:')
+def menU():
+  if menu == 'yes':
+   return play()
+  else:
+   pass
 
-print('It took you', attempt, 'guesses to get the number correct.')
-print('You are a genius!')
+
+time.sleep(0)
+os.system('clear')        
+play()
