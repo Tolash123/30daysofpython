@@ -83,7 +83,7 @@ def round2():
         print('There is no winner')
     else:
         print('Legend2 wins second blow')
-        print('Legend1 takes a hit, with 85 damages')
+        print('Legend1 takes a hit, with 8 damages')
 round2()    
 
-print('May your name go down as legend!')
+print('\n May your name go down as legend!')
