@@ -16,5 +16,3 @@ print(hex(a))
 x,y =1,1
 print(x is y)
 
-a,b = 258, 257
-print(a is b)

@@ -33,7 +33,7 @@ print("Hello {}, your age is {}, your goal is to become a {}".format(Name,Age,Go
 # Replacement Operator based on Index / a,b,c can also be used in indexing
 Age  =  21
 Goal = 'Data Scientist'
-Name = 'Balaji'
+Name = 'Tolash'
 print("Hello {2}, your age is {1}, your goal is to become a {0}".format(Goal,Age,Name))
 
 # print with formatted string

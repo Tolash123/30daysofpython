@@ -4,6 +4,9 @@ print(int(2+3))
 a,b = 5,6
 print(a>b)
 
+a+= 6
+print(a)
+
 # checking for the ASCII code
 lowercase = ['a', 'b', 'c', 'd']
 empty_list = []

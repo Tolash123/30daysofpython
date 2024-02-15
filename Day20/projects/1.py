@@ -1,4 +1,4 @@
-# Q) Program for collecting student data
+# Q) Program to collect student data
 
 print('Welcome to Dristol College! \n')
 name = input('Enter your name: ')

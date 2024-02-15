@@ -28,7 +28,7 @@ Assigning values to a variables
 10. >>=
 11. <<=
 
-## Terenary Operator
+## Ternary Operator
 
 - Writing multiple statements in a single line
 Examples

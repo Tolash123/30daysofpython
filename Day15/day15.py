@@ -104,7 +104,7 @@ print(output)
 
 # Program to find the number of Occurrences of each Character the String
 
- = input('Enter a string: ')
+s = input('Enter a string: ')
 d = {}
 for x in s:
     if x in d.keys():

@@ -5,7 +5,8 @@ b = 40
 a -= 50
 b += 20
 print(a)
-# terenary operator
+
+# ternary operator
 x = 30
 y = 40
 z = x if x < y else y
