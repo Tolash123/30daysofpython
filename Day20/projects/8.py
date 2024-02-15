@@ -1,4 +1,4 @@
-# printing colours
+# Colours
 
 print("If you put")
 print("\033[33m", end="") #yellow

@@ -1,4 +1,4 @@
-#Create a program that uses a loop that asks the user what they have thought of each of the 30 days of challenges so far.
+#Create a program that uses a loop, that asks the user what they have thought of each of the 30 days of challenges so far.
 # Questionnaire
 
 for i in range(1,31):

@@ -1,3 +1,4 @@
+# Character Builder
 import random
 import os,time
 print('Character Builder')
@@ -5,7 +6,7 @@ time.sleep(4)
 os.system('clear')
 def builder():
     name = input('Name Your Legend: ')
-    chr = input('Character Type (Human, Elf, Wiard, Orc): ')
+    chr = input('Character Type (Human, Elf, Wizard, Orc): ')
     print('character: ', name ) 
     print('Type: ', chr )  
 def health_stat():
